@@ -1,4 +1,5 @@
- 
+ char MORSE[]=
+ {'.','-','*','*'};
      void setup() {
   // put your setup code here, to run once:
 
@@ -22,7 +23,7 @@ void loop() {
       {
         if(str[i]>=97&&str[i]<=122)
         {
-          morse+= char(morse[int(str[i]-97)][t]);
+         char  (MORSE[int(str[i]-97)][t]);
           
         }
       }
